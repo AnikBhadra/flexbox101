@@ -1,6 +1,7 @@
 /* ./style.css */
 .container {
   display: flex;
+  height: 50vh;
 }
 
 /* Colors */
@@ -34,11 +35,4 @@
   text-align: center;
   padding: 0.5em;
   color: white;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
 }
