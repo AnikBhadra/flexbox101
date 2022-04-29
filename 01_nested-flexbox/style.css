@@ -2,27 +2,39 @@
   box-sizing: border-box;
 }
 
-.red {
-  background-color: orangered;
-  display: flex;
-  flex-direction: column;
+body {
+  min-height: 100vh;
+  margin: 0;
 }
 
-.green {
+header,
+footer {
   background-color: yellowgreen;
+  height: 20vh;
 }
 
-.blue {
-  background-color: steelblue;
+header,
+footer,
+.nav,
+.aside,
+.article {
+  padding: .5em;
 }
 
-.container {
+.article {
+  flex: 1;
+}
+
+.main {
   display: flex;
 }
 
-.container div {
-  flex: 1;
-  color: white;
-  padding: .5em;
-  font-size: 5vw;
+.nav,
+.aside {
+  background-color: bisque;
+  flex: 0 0 20vw;
+}
+
+.main {
+  min-height: calc(100vh - 40vh);
 }
