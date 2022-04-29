@@ -1,9 +1,8 @@
 /* ./style.css */
 .container {
   display: flex;
-  height: 50vh;
+  align-items: flex-start;
 }
-
 /* Colors */
 
 .indian-red {
