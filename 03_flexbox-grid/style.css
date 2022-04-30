@@ -1,28 +1,15 @@
 .container {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 50vh;
+
+  align-items: flex-start;
 }
 
-.container div {
-  margin: 10px;
-  background-color: blanchedalmond;
-  border: 3px solid rgb(209, 204, 204);
-  border-radius: 10px;
-}
-
-.container div:nth-child(odd) {
-  width: 10%;
-}
-
-.container div:nth-child(even) {
-  width: 20%;
-
-}
-
-.container>div:nth-child(2),
-.container>div:nth-child(4),
-.container>div:nth-child(9) {
-  width: 60%;
+.container>div {
+  font-size: 2vw;
+  color: aqua;
+  background-color: lightcoral;
+  flex: 1;
+  padding: .2em;
+  border-radius: 3px;
+  margin: .1em;
 }
