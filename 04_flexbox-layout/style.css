@@ -28,20 +28,22 @@ body {
   margin: 0;
 }
 
-.parent {
-  width: 400px;
-  height: 300px;
-  border-radius: 0.5em;
-  border: 2px solid #f08080;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 450px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.child {
-  width: 150px;
+ul li {
+  background-color: #fa8072;
+  border: 2px solid #ffa07a;
+  border-radius: 0.5em;
+  margin: 0.5em;
   padding: 0.5em;
+  color: ivory;
+  flex: 1 1 auto;
   text-align: center;
-  color: #fff;
-  border-radius: 0.2em;
-  align-self: center;
 }
