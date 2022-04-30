@@ -1,18 +1,28 @@
-.row {
+.container {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 50vh;
 }
 
-.row>div {
-  font-size: 2em;
-  background-color: lightcoral;
-  flex: 1;
-  border-radius: 5px;
-  padding: .2em;
-  color: white;
-  margin: .1em;
+.container div {
+  margin: 10px;
+  background-color: blanchedalmond;
+  border: 3px solid rgb(209, 204, 204);
+  border-radius: 10px;
 }
 
-.row .row {
-  background-color: rgb(154, 83, 83);
-  color: black;
+.container div:nth-child(odd) {
+  width: 10%;
+}
+
+.container div:nth-child(even) {
+  width: 20%;
+
+}
+
+.container>div:nth-child(2),
+.container>div:nth-child(4),
+.container>div:nth-child(9) {
+  width: 60%;
 }
