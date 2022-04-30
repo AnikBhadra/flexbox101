@@ -2,20 +2,22 @@
   box-sizing: border-box;
 }
 
-.main {
+.container {
   display: flex;
-  align-items: flex-start;
-  background-color: blanchedalmond;
-  max-width: 25rem;
-  padding: 15px;
-  border-radius: 5px;
+  flex-direction: row-reverse;
+  /* justify-content: flex-start; */
+  border: 1px solid black;
+  margin-right: 60%;
 }
 
-img {
-  margin-left: 15px;
-  order: 1;
+.img img {
+  height: 50px;
+  width: 50px;
 }
 
-h3 {
-  margin: 0 0 10px;
+.img {
+  padding: 20px;
+}
+.text{
+  margin-left: 10px;
 }
