@@ -4,20 +4,36 @@
 
 .container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   /* justify-content: flex-start; */
   border: 1px solid black;
   margin-right: 60%;
 }
 
-.img img {
+.container1 {
+  display: flex;
+}
+
+.img1 img {
   height: 50px;
   width: 50px;
 }
 
-.img {
+.img1 {
   padding: 20px;
 }
-.text{
-  margin-left: 10px;
+
+
+.container2 {
+  display: flex;
+  padding-left: 5.5em;
+}
+
+.img2 img {
+  height: 50px;
+  width: 50px;
+}
+
+.img2 {
+  padding: 20px;
 }
