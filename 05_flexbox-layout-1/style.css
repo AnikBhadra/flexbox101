@@ -2,14 +2,20 @@
   box-sizing: border-box;
 }
 
-.container {
+.main {
   display: flex;
-  justify-content: flex-start;
-  /* border: 1px solid black; */
-  margin-right: 50em;
+  align-items: flex-start;
+  background-color: blanchedalmond;
+  max-width: 25rem;
+  padding: 15px;
+  border-radius: 5px;
 }
 
-.logo {
-  padding: 1em;
-  font-size: 35px;
+img {
+  margin-left: 15px;
+  order: 1;
+}
+
+h3 {
+  margin: 0 0 10px;
 }
