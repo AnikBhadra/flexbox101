@@ -1,8 +1,15 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  /* border: 1px solid black; */
+  margin-right: 50em;
+}
+
+.logo {
+  padding: 1em;
+  font-size: 35px;
 }
