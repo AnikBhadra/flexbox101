@@ -1,46 +1,47 @@
 /* Colors */
 
 .indian-red {
-  background-color: #CD5C5C;
+  background-color: #cd5c5c;
 }
 
 .light-coral {
-  background-color: #F08080;
+  background-color: #f08080;
 }
 
 .salmon {
-  background-color: #FA8072;
+  background-color: #fa8072;
 }
 
 .dark-salmon {
-  background-color: #E9967A;
+  background-color: #e9967a;
 }
 
 .light-salmon {
-  background-color: #FFA07A;
+  background-color: #ffa07a;
 }
+
 body {
-  margin: 0;
-  /* font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif; */
-  font-size: 1.2em;
-  line-height: 1.5;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
   padding: 1em;
   margin: 0;
 }
 
-ul {
-  max-width: 700px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  /* display: flex; */
+.parent {
+  width: 400px;
+  height: 300px;
+  border-radius: 0.5em;
+  border: 2px solid #f08080;
+  display: flex;
+  justify-content: center;
 }
 
-ul li {
-  border: 2px solid #FFA07A;
-  border-radius: 0.5em;
-  color: #fff;
+.child {
+  width: 150px;
   padding: 0.5em;
-  /* flex: 1 200px; */
+  text-align: center;
+  color: #fff;
+  border-radius: 0.2em;
+  align-self: center;
 }
