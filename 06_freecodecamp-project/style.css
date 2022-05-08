@@ -1,8 +1,37 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#main {
+  padding: 20px;
+  background-color: #f3fcf9;
+
+}
+
+#title {
+  background-color: rgb(236, 231, 231);
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title h1 {
+  font-size: 50px;
+}
+
+.img-div {
+  width: 94vw;
+  display: flex;
+  background-color: rgb(247, 255, 255);
+  flex-direction: column;
+  align-items: center;
+}
+
+#image {
+  padding: 5px;
+}
+
+#tribute-info {
+  font-size: 24px;
+  padding: 1em 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
