@@ -1,123 +1,91 @@
-* {
-  background-color: rgb(241, 241, 241);
-}
-
-#header-img {
-  background-color: rgb(241, 241, 241);
-  width: 300px;
-  height: 50px;
-}
-
-#nav-bar {
-  background-color: rgb(241, 241, 241);
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.nav-link {
-  padding: 30px;
-  margin: 20px;
-  text-align: center;
-  margin-top: 10px;
-text-decoration: none;
-}
-
-.nav1 {
-  display: flex;
-  list-style-type: none;
-  padding-top: 1px;
-
-}
-
-.bellow_header {
-  background-color: rgb(241, 241, 241);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#form {
-  display: flex;
-  flex-direction: column;
-}
-
-#form,
-input {
-  /* padding: 5px; */
-  margin: 15px;
-}
-
-#submit {
-  background-color: yellow;
-}
-
-#feature {
-  background-color: rgb(241, 241, 241);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#How-It-Works {
-  background-color: rgb(241, 241, 241);
-  margin: 200px;
-  display: flex;
-  justify-content: center;
-}
-
-#Pricing {
-  display: flex;
-  justify-content: space-around;
-}
-
-.product_price {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 20em;
-  border: 2px solid black;
-}
-
-.product_price ul li {
-  text-align: center;
-  padding: 0;
-  list-style: none;
-}
-
-.product_price h2 {
-  text-align: center;
-}
-
-.product_name {
-  padding: .5em;
-  text-align: center;
-  background-color: rgb(216, 218, 218);
-}
-
-.btn {
-
-  text-align: center;
-  width: 50px;
-  background-color: yellow;
-}
-
-.button-class {
-  display: flex;
-  justify-content: center;
-}
-
-.sticky {
+#navbar {
   position: fixed;
-  top: 0;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
   width: 100%;
 }
 
-@media screen and (max-width: 680px) {
-  #Pricing {
-    display: flex;
-    /* justify-content: center; */
-    padding: 0 5em;
-    flex-direction: column;
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
   }
 }

@@ -1,145 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product landing page</title>
-  </head>
-  <body>
-    <div id="page">
-      <header id="header">
-        <nav id="nav-bar">
-          <div class="logo">
-            <img
-              id="header-img"
-              src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-              alt=""
-            />
-          </div>
-          <ul class="nav1">
-            <li>
-              <a class="nav-link" href="#feature">Feature</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#How-It-Works">How It Works</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#Pricing">Pricing</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+<head>
+  <title>documentation page</title>
+  <link rel="stylesheet" href="style.css">
+    <main id="main-doc">
 
-    <div class="bellow_header">
-      <h2>Handcrafted, home-made masterpieces</h2>
-      <form id="form" action=" https://www.freecodecamp.com/email-submit">
-        <input
-          id="email"
-          type="email"
-          name="email"
-          placeholder="Enter your email address"
-          required
-        />
-        <input id="submit" type="submit" />
-      </form>
-    </div>
+      <nav id="navbar">
+    <header>HTML Documentation</header>
+    <ul>
+        <li>
+            <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#html_elements">html elements</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Html_Attributes">Html Attributes</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Html_Style">Html Style</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Html_Links">Html Links</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Reference">Reference</a>
+        </li>
+    </ul>
+</nav>
+        <section class="main-section" id="Introduction">
+            <header><u>Introduction</u></header>
+            <article>
+                <p>
+                    Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.
+                </p>
 
-    <section id="feature">
-      <div class="feature1">
-        <h1>Premium Materials</h1>
-        <p>
-          Our trombones use the shiniest brass which is sourced locally. This
-          will increase the longevity of your purchase. We also provide.
-        </p>
-      </div>
-      <div class="feature2">
-        <h1>Fast Shipping</h1>
-        <p>
-          We make sure you recieve your trombone as soon as we have finished
-          making it. We also provide free returns if you are not satisfied
-        </p>
-      </div>
-      <div class="feature3">
-        <h1>Quality Assurance</h1>
-        <p>
-          For every purchase you make, we will ensure there are no damages or
-          faults and we will check and test the pitch of your instrument.
-        </p>
-      </div>
-    </section>
-    <section id="How-It-Works">
-      <iframe
-        id="video"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/a458dmxmW6A"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </section>
-    <section id="Pricing">
-      <div class="product_price">
-        <div class="product_name">TENOR TROMBONE</div>
-        <h2>$600</h2>
+                <p>
+                    HTML elements are the building blocks of HTML pages.
+                    <ul>
+                        <li>The !DOCTYPE html declaration defines this document to be HTML5</li>
+                        <li>The html element is the root element of an HTML page</li>
+                        <li>The lang attribute  defines the language of the document</li>
+                        <li>The "title" element specifies a title for the document</li>
+                    </ul>
+                </p>
+                <p>
+                    <code>
+                        code is written here
+                    </code>
+                    
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="html_elements">
+<header><u>html elements</u></header>
+<article>
+    <p>
         <ul>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum.</li>
+            <li>h1 is fast heading element.
+                </li>
+                <li>p is paragraph.
+        </li>
         </ul>
-        <div class="button-class">
-          <button class="btn">Select</button>
-        </div>
-      </div>
-      <div class="product_price">
-        <div class="product_name">TENOR TROMBONE</div>
-        <h2>$900</h2>
-        <ul>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum.</li>
-        </ul>
-        <div class="button-class">
-          <button class="btn">Select</button>
-        </div>
-      </div>
-      <div class="product_price">
-        <div class="product_name">TENOR TROMBONE</div>
-        <h2>$1200</h2>
-        <ul>
-          <li>Lorem ipsum Lorem.</li>
-          <li>Lorem ipsum.</li>
-          <li>Lorem ipsum dolor.</li>
-          <li>Lorem ipsum.</li>
-        </ul>
-        <div class="button-class">
-          <button class="btn">Select</button>
-        </div>
-      </div>
-    </section>
-  </body>
+    </p>
+    <code>
+        2nd confederate
+    </code>
+    
+</article>
+        </section>
+<section class="main-section" id="Html_Attributes">
+<header><u>HTML Attributes</u></header>
+<article><p>
+<ul>
+    <li>All HTML elements can have attributes</li>
+    <li>Attributes provide additional information about elements</li>
+</ul>    
+</p>
+<code>
+    3rd code
+</code>
 
-  <script>
-    console.log("Js Loaded");
-    window.onscroll = function () {
-      myFunction();
-    };
+</article>
+</section>  
 
-    var header = document.getElementById("header");
-    var sticky = header.offsetTop;
+<section class="main-section" id="Html_Style">
+<header><u>Html Style</u></header>
+<article>
+    <p>
+        Setting the style of an HTML element, can be done with the style attribute.</p>
+<p>The CSS background-color property defines the background color for an HTML element.</p><code>
+    4th condemne 
+</code>
+</article>
+    
+</section>
 
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    }
-  </script>
+<section class="main-section" id="Html_Links">
+    <header><u>Html Links</u></header>
+    <article>
+        <p>
+            Links are found in nearly all web pages. Links allow users to click their way from page to page.
+        </p>
+        <code>
+            5th code
+        </code>
+    </article>
+</section>
+
+<section class="main-section" id="Reference">
+    <header><u>Reference</u></header>
+    <article>
+        <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">W3school</a></p>
+    </article>
+</section>
+
+</main>
+</head>
 </html>
