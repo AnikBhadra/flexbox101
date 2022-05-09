@@ -1,37 +1,63 @@
-#main {
-  padding: 20px;
-  background-color: #f3fcf9;
-
+* {
+  box-sizing: border-box;
 }
 
-#title {
-  background-color: rgb(236, 231, 231);
-  border: 2px solid black;
+body {
+  font-size: 1rem;
+}
+
+.container {
+  background-color: rgb(227, 227, 227);
+  display: flex;
+  justify-content: center;
+  height: 100%
+}
+
+.header {
+  background-color: rgb(104, 221, 221);
+  text-align: center;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.survey_form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 }
 
-#title h1 {
-  font-size: 50px;
-}
-
-.img-div {
-  width: 94vw;
-  display: flex;
-  background-color: rgb(247, 255, 255);
-  flex-direction: column;
-  align-items: center;
-}
-
-#image {
-  padding: 5px;
-}
-
-#tribute-info {
-  font-size: 24px;
-  padding: 1em 10em;
+.form_group {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: .2em;
+}
+
+.form_group label {
+  padding: .5em;
+}
+
+.box {
+  font-size: x-large;
+  background-color: rgb(131, 195, 187);
+}
+
+.box1 {
+  padding: 2em 2em;
+}
+
+button {
+  padding: .5em .5em;
+  background-color: rgb(118, 113, 113);
+}
+
+.form_group input {
+  padding: .5em;
+}
+
+#comments {
+  width: 500px;
+  height: 150px;
 }
