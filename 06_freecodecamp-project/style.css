@@ -1,63 +1,123 @@
 * {
-  box-sizing: border-box;
+  background-color: rgb(241, 241, 241);
 }
 
-body {
-  font-size: 1rem;
+#header-img {
+  background-color: rgb(241, 241, 241);
+  width: 300px;
+  height: 50px;
 }
 
-.container {
-  background-color: rgb(227, 227, 227);
+#nav-bar {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-link {
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  margin-top: 10px;
+text-decoration: none;
+}
+
+.nav1 {
+  display: flex;
+  list-style-type: none;
+  padding-top: 1px;
+
+}
+
+.bellow_header {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form,
+input {
+  /* padding: 5px; */
+  margin: 15px;
+}
+
+#submit {
+  background-color: yellow;
+}
+
+#feature {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#How-It-Works {
+  background-color: rgb(241, 241, 241);
+  margin: 200px;
   display: flex;
   justify-content: center;
-  height: 100%
 }
 
-.header {
-  background-color: rgb(104, 221, 221);
+#Pricing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20em;
+  border: 2px solid black;
+}
+
+.product_price ul li {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+.product_price h2 {
   text-align: center;
 }
 
-h1,
-p {
-  margin: 0;
-}
-
-.survey_form {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.form_group {
-  display: flex;
-  flex-direction: column;
-  padding: .2em;
-}
-
-.form_group label {
+.product_name {
   padding: .5em;
+  text-align: center;
+  background-color: rgb(216, 218, 218);
 }
 
-.box {
-  font-size: x-large;
-  background-color: rgb(131, 195, 187);
+.btn {
+
+  text-align: center;
+  width: 50px;
+  background-color: yellow;
 }
 
-.box1 {
-  padding: 2em 2em;
+.button-class {
+  display: flex;
+  justify-content: center;
 }
 
-button {
-  padding: .5em .5em;
-  background-color: rgb(118, 113, 113);
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.form_group input {
-  padding: .5em;
-}
-
-#comments {
-  width: 500px;
-  height: 150px;
+@media screen and (max-width: 680px) {
+  #Pricing {
+    display: flex;
+    /* justify-content: center; */
+    padding: 0 5em;
+    flex-direction: column;
+  }
 }

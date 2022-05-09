@@ -2,125 +2,144 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Survey Form</title>
+    <title>Product landing page</title>
   </head>
   <body>
-    <div class="container">
-      <div class="box">
-        <header class="header">
-          <h1 id="title">BGMI Survey Form</h1>
-          <p id="description">
-            Thank you for taking the time to help us improve the platform
-          </p>
-        </header>
-        <div class="box1">
-          <form class="survey_form" action="">
-            <div class="form_group">
-              <label id="name" for="name">Name</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Enter your name"
-                required
-              />
-            </div>
-            <div class="form_group">
-              <label id="email" for="email">Email</label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                placeholder="enter your email"
-                required
-              />
-            </div>
-            <div class="form_group">
-              <label id="number" for="number">Age</label>
-              <input
-                type="number"
-                name="Age"
-                id="number"
-                placeholder="enter your Age"
-                required
-              />
-            </div>
-            <div class="form_group">
-              <p>Which option best describes your current role?</p>
-              <select id="dropdown" name="role" required>
-                <option disabled selected value>Select current role</option>
-                <option value="student">Student</option>
-                <option value="job">Full Time Job</option>
-                <option value="pjob">Part Time Job</option>
-                <option value="learner">Full Time Learner</option>
-                <option value="preferNo">Prefer not to say</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div class="form_group">
-              <p>How many time in a day do you spend in BGMI</p>
-              <label>
-                <input
-                  type="radio"
-                  name="user-recommended"
-                  value="30min"
-                />30min
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  name="user-recommended"
-                  value="1h to 2h"
-                />1h to 2h
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  name="user-recommended"
-                  value="2h to 4h"
-                />2h to 4h
-              </label>
-              <div class="form_group">
-                <p>which type of gun do you use most?</p>
-                <label>
-                  <input name="prefer" value="SMG" type="checkbox" />SMG</label
-                >
-                <label>
-                  <input name="prefer" value="AUTO GUN" type="checkbox" />AUTO
-                  GUN</label
-                >
-                <label>
-                  <input
-                    name="prefer"
-                    value="ASSAULT GUN"
-                    type="checkbox"
-                  />ASSAULT GUN</label
-                >
-                <label>
-                  <input name="prefer" value="LIGHT GUN" type="checkbox" />LIGHT
-                  GUN</label
-                >
-                <div class="form_group">
-                  <p>Any comments or suggestions?</p>
-                  <textarea
-                    id="comments"
-                    name="comment"
-                    placeholder="Enter your comment here..."
-                  ></textarea>
-                  <div class="form_group">
-                    <button type="submit" id="submit" class="submit-button">
-                      Submit
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
+    <div id="page">
+      <header id="header">
+        <nav id="nav-bar">
+          <div class="logo">
+            <img
+              id="header-img"
+              src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+              alt=""
+            />
+          </div>
+          <ul class="nav1">
+            <li>
+              <a class="nav-link" href="#feature">Feature</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#How-It-Works">How It Works</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Pricing">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="bellow_header">
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form id="form" action=" https://www.freecodecamp.com/email-submit">
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input id="submit" type="submit" />
+      </form>
+    </div>
+
+    <section id="feature">
+      <div class="feature1">
+        <h1>Premium Materials</h1>
+        <p>
+          Our trombones use the shiniest brass which is sourced locally. This
+          will increase the longevity of your purchase. We also provide.
+        </p>
+      </div>
+      <div class="feature2">
+        <h1>Fast Shipping</h1>
+        <p>
+          We make sure you recieve your trombone as soon as we have finished
+          making it. We also provide free returns if you are not satisfied
+        </p>
+      </div>
+      <div class="feature3">
+        <h1>Quality Assurance</h1>
+        <p>
+          For every purchase you make, we will ensure there are no damages or
+          faults and we will check and test the pitch of your instrument.
+        </p>
+      </div>
+    </section>
+    <section id="How-It-Works">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/a458dmxmW6A"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="Pricing">
+      <div class="product_price">
+        <div class="product_name">TENOR TROMBONE</div>
+        <h2>$600</h2>
+        <ul>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
+        <div class="button-class">
+          <button class="btn">Select</button>
         </div>
       </div>
-    </div>
+      <div class="product_price">
+        <div class="product_name">TENOR TROMBONE</div>
+        <h2>$900</h2>
+        <ul>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
+        <div class="button-class">
+          <button class="btn">Select</button>
+        </div>
+      </div>
+      <div class="product_price">
+        <div class="product_name">TENOR TROMBONE</div>
+        <h2>$1200</h2>
+        <ul>
+          <li>Lorem ipsum Lorem.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
+        <div class="button-class">
+          <button class="btn">Select</button>
+        </div>
+      </div>
+    </section>
   </body>
+
+  <script>
+    console.log("Js Loaded");
+    window.onscroll = function () {
+      myFunction();
+    };
+
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
 </html>
